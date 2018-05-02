@@ -21,6 +21,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendee)
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
+ first =  attendees.shift
+  batch_badge_creator(first)
+  assign_rooms(first)
 end
