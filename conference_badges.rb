@@ -9,4 +9,5 @@ def batch_badge_creator(badges)
   badges.each do |badge|
     list << badge_maker(badge)
   end
+  list
 end
