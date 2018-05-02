@@ -23,6 +23,6 @@ end
 def printer(attendees)
   attendees.size.times do
   puts batch_badge_creator(attendees)
-end
+  end
   puts assign_rooms(attendees)
 end
