@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
   attendees.size.times do
-  puts batch_badge_creator(attendees)
+  puts batch_badge_creator(attendees).shift
   end
   puts assign_rooms(attendees)
 end
